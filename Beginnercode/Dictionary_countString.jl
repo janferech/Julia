@@ -15,6 +15,6 @@ println(buchstaben(text))
 
 #Ausgabe
 #=
-Dict('n' => 1, 's' => 1, 't' => 2, 'e' => 2)
+Dict('f' => 1, 's' => 3, 'd' => 3, 'o' => 1)
 =#
 
