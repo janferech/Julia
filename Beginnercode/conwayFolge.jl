@@ -14,7 +14,7 @@ function printNextLine(numbers::Array{Int})
     return next_line
 end
 
-print(printNextLine([1,1,1,3,2,1,3,2,1,1]))
+print(printNextLine([1]))
 print(" ")
 
 
