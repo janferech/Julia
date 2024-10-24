@@ -1,4 +1,4 @@
-function ist_gueltig(zustand::String, position::Int)::Bool
+function ist_gueltig(zustand::String, position::Int)::Bool # Vladi
     return (zustand[position] == 'p' && (position < length(zustand) && zustand[position+1] == '-' || position < length(zustand) - 1 && zustand[position+2] == '-')) ||
            (zustand[position] == 'q' && (position > 1 && zustand[position-1] == '-' || position > 2 && zustand[position-2] == '-'))
 end
