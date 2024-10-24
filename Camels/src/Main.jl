@@ -53,9 +53,12 @@ end
 
 anzCamels = 3
 
+
 camel(anzCamels)
 
-# function setCamel()
-#     print("Wie viele Kamele soll jede Gruppe haben? ")
-#     camel(parse(Int, readline()))
-# end 
+#=
+ function setCamel()
+     print("Wie viele Kamele soll jede Gruppe haben? ")
+     camel(parse(Int, readline()))
+ end 
+=#
