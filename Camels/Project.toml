@@ -2,3 +2,6 @@ name = "Camels"
 uuid = "8b6411a7-fea6-4acd-97c9-3ab985fddbf2"
 authors = ["janferech <jan.trautwein11@gmail.com>"]
 version = "0.1.0"
+
+[deps]
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
