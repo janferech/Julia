@@ -3,7 +3,7 @@ function ist_gueltig(zustand::String, position::Int)::Bool # Vladi
            (zustand[position] == 'q' && (position > 1 && zustand[position-1] == '-' || position > 2 && zustand[position-2] == '-'))
 end
 
-function mache_zug(zustand::String, position::Int)::String
+function mache_zug(zustand::String, position::Int)::String # Jan
     anzahl_kamale = collect(zustand)  # Zustand = String --> In ein Array umwandeln, sodass position und leeres_feld als indexe Innerhalb des Arrays fungieren können
     leeres_feld = findfirst(==('-'), anzahl_kamale)  # Finde die Position des Platzhalters <->
     anzahl_kamale[position], anzahl_kamale[leeres_feld] = anzahl_kamale[leeres_feld], anzahl_kamale[position]  # Tausche die Position des Kamels mit dem leeren Feld

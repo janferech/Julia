@@ -4,6 +4,7 @@ greet() = print("Hello World!")
 
 include("Main.jl")
 
-export welt
+export setCamel
+export berechneMinWege
 
 end # module Camels
